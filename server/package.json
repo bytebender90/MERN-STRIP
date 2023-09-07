@@ -1,0 +1,35 @@
+{
+  "name": "funnel-api",
+  "version": "1.0.0",
+  "description": "Node js Rest API funnel ali ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Funnel",
+    "api",
+    "click"
+  ],
+  "author": "Ghayth Moustapha | Software Engineer",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "deep-email-validator": "^0.1.21",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.1",
+    "mongoose-unique-validator": "^4.0.0",
+    "ssl-express-www": "^3.2.1",
+    "stripe": "^12.17.0",
+    "stripe-webhook-middleware": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
